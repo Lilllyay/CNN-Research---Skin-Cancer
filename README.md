@@ -1,0 +1,8 @@
+# CNN-Research---Skin-Cancer
+Investigated the performance gap of Convolutional Neural Networks in skin cancer diagnosis for Caucasian and Latino patients using skin lesion images
+
+Skin cancer is one of the most prevalent cancers in North America, killing thousands of Americans each day. The incorporation of Artificial Intelligence (AI), specifically machine learning (ML), in early cancer detection has shown great potential in recent years. 
+Yet, current literature shows that racial bias exists in current ML models used for skin cancer detection, favoring lighter skin colors. The study aims to quantify the performance gap of a Convolutional Neural Network (CNN), which is a type of ML model, on white patients and Latino patients while being trained on white patients’ data. 
+A CNN model is trained on a dataset collected by the International Skin Imaging Collaboration (ISIC) Archive that contains primarily white patients’ skin lesion images and their diagnoses. ResNet50 is used to improve the model’s efficiency and performance. By training the model for 32 epochs, the model is able to achieve an 84% accuracy, an 81% precision, a 92% recall, and an 86% F-1 score. 
+The model is then tested on a dataset from Hospital Italiano de Buenos Aires that contains exclusively Latino patients’ data. The accuracy of the model is evaluated and compared to the accuracy when tested on white patients. The model achieves a 50% accuracy when tested on Latino patients’ skin lesions, which is significantly lower (34%) than the 84% accuracy on white patients. 
+Therefore, the research suggests that Latino patients are being disadvantaged by commonly adopted CNN models trained on white patients’ data.
